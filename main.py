@@ -61,3 +61,5 @@ f = open("Codex-s/relation2id.txt", "w")
 for k in relation2iddict.keys():
     f.write("{}'{}\n".format(relation2iddict[k], k))
 f.close()
+
+print("New files created!")
